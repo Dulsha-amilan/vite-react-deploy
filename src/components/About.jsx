@@ -13,7 +13,7 @@ import Express from '../assets/Express.png'
 import NextJs from '../assets/NextJs.png'
 import Pythoned from '../assets/pythoned.png'
 import Java from '../assets/Java.png'
-import PHP from '../assets/PHP.png'
+
 const About = () => {
     return (
         <div className='relative' id='about'>
