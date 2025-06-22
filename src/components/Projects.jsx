@@ -45,7 +45,7 @@ const Projects = () => {
             title: 'Sri Lanka Lighting Digital Portal',
             desc: 'Designed for the youth who have basic ICT skills who want to enter the ICT industry. Here the admin panel is developed to make its changes and the administrators to develop its functionality.',
             image: Webelite,
-            live: "https://www.webelitebuilders.com/",
+            live: "https://lightingdigital.gov.lk/",
             github: "#",
             techStack: ['Laravel', 'PHP', 'MySQL', 'Bootstrap']
         },
