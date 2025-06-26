@@ -5,7 +5,7 @@ import twitter from '../assets/twitter.png';
 import linkedin from '../assets/linkedin.png';
 import reactLogo from '../assets/NodeLogo.png';
 import reduxLogo from '../assets/Redux.png';
-import tailwind from '../assets/Tailwind Css.png';
+import tailwind from '../assets/Express.png';
 import cv from '../assets/Dulsha Senavirathna.pdf';
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
             <img src={hero} alt='Hero' className='lg:h-[90vh] h-96' />
             <img src={reactLogo} alt='React' className='absolute w-10 top-36 left-0 rounded-full md:hidden' />
             <img src={reduxLogo} alt='Redux' className='absolute w-10 top-0 right-5 md:hidden' />
-            <img src={tailwind} alt='Tailwind' className='absolute w-10 rounded-full right-0 bottom-36 md:hidden' />
+            <img src={tailwind} alt='Tailwind' className='absolute w-10 rounded-full right-0 bottom-40 md:hidden' />
           </div>
         </div>
       </div>
