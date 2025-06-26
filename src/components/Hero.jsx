@@ -29,7 +29,7 @@ const Hero = () => {
             <img src={hero} alt='Hero' className='lg:h-[90vh] h-96' />
             <img src={reactLogo} alt='React' className='absolute w-10 top-36 left-0 rounded-full md:hidden' />
             <img src={reduxLogo} alt='Redux' className='absolute w-10 top-0 right-5 md:hidden' />
-            <img src={tailwind} alt='Tailwind' className='absolute w-10 rounded-full right-0 bottom-40 md:hidden' />
+            <img src={tailwind} alt='Tailwind' className='absolute w-10 rounded-full right-1 bottom-8 md:hidden' />
           </div>
         </div>
       </div>
