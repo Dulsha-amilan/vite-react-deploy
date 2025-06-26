@@ -19,13 +19,21 @@ const About = () => {
         <div className='relative' id='about'>
             <div className='bg-gray-100 py-12'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-                    <div className='text-center'>
-                        <h2 className='text-base text-red-600 font-semibold tracking-wide uppercase'>About Me</h2>
-                        <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>Hi, I'm  Dulsha Amilan</p>
-                        <p className='mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto'>
-                        Dulsha Senavirathna
-Software Engineer | Full-Stack Developer | UI/UX Developer | Web Developer 
-                        </p>
+                    <div className='text-center mb-16'>
+                        <div className='inline-block animate-bounce mb-4'>
+                            <span className='text-6xl'>👨‍💻</span>
+                        </div>
+                        <h2 className='text-base text-red-600 font-semibold tracking-widest uppercase mb-4 animate-pulse'>About Me</h2>
+                         <h5 class='text-5xl md:text-6xl font-extrabold text-black mb-6'>
+                          Hi, I'm Dulsha Amilan
+                         </h5>
+                        <div className='max-w-3xl mx-auto'>
+                            <p className='text-xl text-gray-600 leading-relaxed'>
+                                <span className='bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-semibold'>
+                                    Software Engineer | Full-Stack Developer | UI/UX Developer | Web Developer
+                                </span>
+                            </p>
+                        </div>
                     </div>
                     <div className='mt-10'>
                         <div className='grid grid-cols-1 gap-12 lg:grid-cols-2'>

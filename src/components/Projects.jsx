@@ -122,7 +122,7 @@ const Projects = () => {
         image: Codeflyvlog,
         live: "https://supercar123.netlify.app/",
         github: "https://github.com/Dulsha-amilan/Codefly-Vlog.git",
-        techStack: ['React', 'Node.js', 'MONOGO DB','Express.js']
+        techStack: ['React', 'Node.js', 'Mongo DB','Express.js']
     },
     {
         title: 'Real Time Chat Application',
@@ -130,7 +130,7 @@ const Projects = () => {
         image: Chat,
         live: "https://supercar123.netlify.app/",
         github: "https://github.com/Dulsha-amilan/Real-Time-Chat-App.git",
-        techStack: ['React', 'Node.js', 'MONOGO DB','Express.js']
+        techStack: ['React', 'Node.js', 'Mongo DB','Express.js']
     },
     ];
 
