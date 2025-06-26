@@ -110,35 +110,11 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className='md:w-1/2 relative flex justify-center items-end'>
-            <div className='relative'>
-              <img 
-                src={hero} 
-                alt='Hero' 
-                className='lg:h-[90vh] h-96 transform transition-transform duration-1000 hover:scale-105' 
-              />
-              
-              {/* Floating tech icons with enhanced animations */}
-              <img 
-                src={reactLogo} 
-                alt='React' 
-                className='absolute w-12 top-36 left-0 rounded-full md:hidden animate-spin-slow hover:animate-spin' 
-              />
-              <img 
-                src={reduxLogo} 
-                alt='Redux' 
-                className='absolute w-12 top-0 right-5 md:hidden animate-pulse hover:scale-110 transition-transform' 
-              />
-              <img 
-                src={tailwind} 
-                alt='Tailwind' 
-                className='absolute w-12 rounded-full right-1 bottom-8 md:hidden animate-bounce hover:animate-ping transition-all' 
-              />
-            </div>
-
-            {/* Animated background elements */}
-            <div className='absolute top-1/4 left-1/4 w-4 h-4 bg-blue-300 rounded-full animate-pulse opacity-30'></div>
-            <div className='absolute top-3/4 right-1/4 w-3 h-3 bg-purple-300 rounded-full animate-bounce opacity-40'></div>
+       <div className='md:w-1/2 relative flex justify-center items-end'>
+            <img src={hero} alt='Hero' className='lg:h-[90vh] h-96' />
+            <img src={reactLogo} alt='React' className='absolute w-10 top-36 left-0 rounded-full md:hidden' />
+            <img src={reduxLogo} alt='Redux' className='absolute w-10 top-0 right-5 md:hidden' />
+            <img src={tailwind} alt='Tailwind' className='absolute w-10 rounded-full right-1 bottom-8 md:hidden' />
           </div>
         </div>
       </div>
